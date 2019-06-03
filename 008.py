@@ -21,5 +21,5 @@ for i in range(len(sss) - lng + 1):
     if tmp > max:
         max = tmp
 
-print('>>', max)
+print('>>', max, '♥')
 

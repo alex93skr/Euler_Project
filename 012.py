@@ -53,17 +53,17 @@ def delitel_max(zzz):
 
 for n in range(1, 10000000000):
 
-    print('>>>', n - 1, '-e TREUG: ', end='')
+    # print('>>>', n - 1, '-e TREUG: ', end='')
 
     treug = 0
     for i in range(0, n):
         treug += i
 
-    print(treug, end='')
+    # print(treug, end='')
 
     tmp = delitel_max(treug)
 
-    print(' deliteley:', tmp)
+    # print(' deliteley:', tmp)
     # print(n - 1, '-e teyg 4islo:', zz, 'deliteley:', delitel)
 
     if tmp >= 500:

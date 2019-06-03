@@ -13,6 +13,7 @@ while i * i <= n:
     i = i + 1
 print(n)
 
+
 # def prost(a):
 #     return all(a % i for i in range(2, int(a)))
 

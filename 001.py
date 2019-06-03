@@ -3,16 +3,8 @@
 
 print(f'------------------------1--')
 
-# arr = []
-# nn = 0
+limit = 1001
 
-# for i in range(1000):
-#     if i % 3 == 0 or i % 5 == 0:
-#         arr.append(i)
-#
-# # print(arr)
-# for i in arr:
-#     nn += i
-# print('>>>', nn)
+print(sum([i for i in range(limit) if i % 3 == 0 or i % 5 == 0]), '♥')
 
 

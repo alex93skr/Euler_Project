@@ -3,15 +3,19 @@
 
 print(f'-----------------------4--')
 
-def is_palindrome(string):          # палиндром
-    reversed_string = string[::-1]
-    return string == reversed_string
+print(max([i * j for i in range(999, 777, -1) for j in range(999, 777, -1) if str(i * j) == str(i * j)[::-1]]), '♥')
 
 
-nn = 100
 
-for i in range(99, 1001):
-    for n in range(100, 1000):
-        if is_palindrome(str(i*n)):
-            print(i, '*', n, '=', i*n)
+def palindrome(string):
+    """палиндром"""
+    return string == string[::-1]
 
+
+arr = []
+for i in range(777, 1000):
+    for n in range(777, 1000):
+        if palindrome(str(i * n)):
+            arr.append(i * n)
+
+print('>', max(arr))

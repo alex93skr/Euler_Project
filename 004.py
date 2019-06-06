@@ -6,7 +6,6 @@ print(f'-----------------------4--')
 print(max([i * j for i in range(999, 777, -1) for j in range(999, 777, -1) if str(i * j) == str(i * j)[::-1]]), '♥')
 
 
-
 def palindrome(string):
     """палиндром"""
     return string == string[::-1]
